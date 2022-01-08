@@ -1,0 +1,55 @@
+.app-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.input-form label {
+  margin: 4px;
+}
+.input-form input {
+  width: 100px;
+}
+.input-form input:disabled {
+  cursor: not-allowed;
+}
+.actions {
+  display: flex;
+  margin: 4px 0;
+  width: 500px;
+  justify-content: space-between;
+}
+.actions button:disabled {
+  cursor: not-allowed;
+}
+.message {
+  height: 1.5em;
+}
+.warning {
+  color: red;
+}
+.wrapper {
+  width: min-content;
+  height: min-content;
+}
+.grid {
+  border: 1px black solid;
+}
+.grid-row {
+  display: flex;
+}
+
+.grid-cell {
+  display: block;
+  border: 1px #DDDDDD dashed;
+  width: 10px;
+  height: 10px;
+}
+
+.living {
+  background-color: black;
+}
+
+.dead {
+  background-color: transparent;
+}
